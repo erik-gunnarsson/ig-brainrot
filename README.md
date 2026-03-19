@@ -7,16 +7,18 @@ This userscript hides Instagram Reels and the Explore button for a cleaner, less
 - Hides Reel posts that appear in the Instagram feed.
 - Hides the Reels button in Instagram navigation.
 - Hides the Explore button in Instagram navigation.
+- Hides the mobile "Open in the Instagram app" banner when it appears.
 
 ## Install
 
 ### Option 1: Userscripts on Safari
 
 1. Make sure the `Userscripts` Safari extension is installed and enabled.
-2. Download the script from this repository:
+2. Open the raw script from this repository in Safari:
    [hide-instagram-reels-and-explore.user.js](https://raw.githubusercontent.com/erik-gunnarsson/ig-brainrot/main/hide-instagram-reels-and-explore.user.js)
-3. Import the downloaded `.user.js` file into `Userscripts`, or paste its contents into a new script there.
-4. Refresh any open Instagram tabs.
+3. While you are still on that raw `.user.js` page, open Safari's extensions menu and launch `Userscripts`.
+4. Install the script from the prompt shown inside the `Userscripts` popup.
+5. Refresh any open Instagram tabs.
 
 ### Option 2: Other userscript managers
 
@@ -37,6 +39,7 @@ This userscript hides Instagram Reels and the Explore button for a cleaner, less
 
 - The script runs only on `https://www.instagram.com/*`.
 - Instagram changes its markup regularly, so selectors may need updates over time.
+- On iPhone and iPad, seeing the raw script text in Safari is expected. You usually install it from the `Userscripts` extension popup on that page, not by downloading a file first.
 
 ## License
 
