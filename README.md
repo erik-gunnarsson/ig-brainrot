@@ -10,19 +10,27 @@ This userscript hides Instagram Reels and the Explore button for a cleaner, less
 
 ## Install
 
-### Option 1: Install directly from this fork
+### Option 1: Userscripts on Safari
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/) or another compatible userscript manager.
-2. Open the raw script from this repository:
+1. Make sure the `Userscripts` Safari extension is installed and enabled.
+2. Download the script from this repository:
    [hide-instagram-reels-and-explore.user.js](https://raw.githubusercontent.com/erik-gunnarsson/ig-brainrot/main/hide-instagram-reels-and-explore.user.js)
-3. When Tampermonkey prompts you, choose `Install`.
+3. Import the downloaded `.user.js` file into `Userscripts`, or paste its contents into a new script there.
 4. Refresh any open Instagram tabs.
 
-### Option 2: Copy the script manually
+### Option 2: Other userscript managers
+
+1. Install a compatible userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
+2. Open the raw script from this repository:
+   [hide-instagram-reels-and-explore.user.js](https://raw.githubusercontent.com/erik-gunnarsson/ig-brainrot/main/hide-instagram-reels-and-explore.user.js)
+3. Install the script when your userscript manager prompts you.
+4. Refresh any open Instagram tabs.
+
+### Option 3: Copy the script manually
 
 1. Open [hide-instagram-reels-and-explore.user.js](https://github.com/erik-gunnarsson/ig-brainrot/blob/main/hide-instagram-reels-and-explore.user.js).
 2. Copy the file contents.
-3. Create a new script in Tampermonkey.
+3. Create a new script in your userscript manager.
 4. Paste the script, save it, and refresh Instagram.
 
 ## Notes
